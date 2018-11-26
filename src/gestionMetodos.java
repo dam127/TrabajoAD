@@ -30,7 +30,6 @@ public class gestionMetodos {
 
                 Statement s = null;
                 ResultSet r = null;
-                System.out.println("ERROR");
                 String sql = "SELECT nombre FROM usuarios WHERE usuario='" + usuario + "' AND contraseña='" + contrasenia + "'";
                 s = c.createStatement();
 

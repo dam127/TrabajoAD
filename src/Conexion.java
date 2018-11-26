@@ -26,7 +26,7 @@ public class Conexion {
         try{
             Class.forName("com.mysql.jdbc.Driver");
             
-            con=DriverManager.getConnection("jdbc:mysql://10.0.10.18:3306/preguntastest",user,password);
+            con=DriverManager.getConnection("jdbc:mysql://10.0.10.17:3306/preguntastest",user,password);
         
             
             
