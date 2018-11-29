@@ -147,6 +147,14 @@ public class Inicio extends javax.swing.JFrame {
         
           if (inicio.existeUsuario(usuario, contrasenia)) {
             System.out.println("Sesion iniciada");
+            dispose();
+            menuCategorias n=new menuCategorias();
+            n.setVisible(true);
+            
+            
+            
+            
+            
             
         }else{
               lblError.setForeground(Color.red);

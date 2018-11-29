@@ -265,7 +265,7 @@ public class Registro extends javax.swing.JFrame {
             String pass = txtContrasenia.getText();
             String fechanac = txtFechaNac.getText();
 
-            Usuario nuevoUsuario = new Usuario(user, pass, nombre, apellidos, fechanac);
+            Usuario nuevoUsuario = new Usuario(user, nombre, pass, apellidos, fechanac);
             if (registro.añadirUsuario(nuevoUsuario)) {
                 JOptionPane.showMessageDialog(null, "Registro completado", "Registro",
                         JOptionPane.PLAIN_MESSAGE, null);
